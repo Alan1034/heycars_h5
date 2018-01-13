@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #shiyanzu,#duizhaozu{
+            width: 300px;
+            height: 600px;
+        }
+        fieldset{
+            width: 500px;
+            height: 650px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend>实验组</legend>
+        注意不能有空格和逗号，数据之间换行，前后不能有空行
+    <textarea id="shiyanzu">
+</textarea>
+
+    </fieldset>
+    <fieldset>
+        <legend>对照组</legend>
+        注意不能有空格和逗号，数据之间换行，前后不能有空行
+        <textarea id="duizhaozu">
+</textarea>
+    </fieldset>
+    <button id="button">点我</button>
+<div id=time></div>
+<div id=wish></div>
+</body>
+</html>
+<script>
+    setInterval(function () {
+        var date=new Date();
+        document.getElementById("time").innerHTML=date;
+        var hours=date.getHours();
+        if (hours>=23||hours<=5){
+            document.getElementById("wish").innerHTML="夜深了，小高要注意休息哦Zzz"
+        };
+        if (10>=hours>=6){
+            document.getElementById("wish").innerHTML="小高早上好，又是美好的一天XD"
+        }
+    },1000)
+    var button=document.getElementById("button");
+    button.onclick=f1;
+        function f1(){
+            //对照组
+           var arr= document.getElementById("duizhaozu").value.split("\n");
+            console.log(arr);
+            //实验组
+            var arr2=document.getElementById("shiyanzu").value.split("\n");
+            console.log(arr2);
+            var arr3=[];
+            document.write("<div class='math' style=width:800px;height:700px;overflow:scroll;background-color:dodgerblue;margin:auto;>");
+        for(var i=0;i<arr2.length;i++){
+            for(var o=0;o<arr.length;o++) {
+//                console.log(arr2[i]-arr[o]);
+                if(o>0&&(Math.abs(arr2[i]-arr[o]))<(Math.abs(arr2[i]-arr[o-1]))){
+                       arr3[i]=arr[o];
+                }else{
+                    arr3[i]=arr3[i];
+                }
+            }
+            document.write(arr3[i]+"&nbsp;"+"/"+"&nbsp;"+(arr.indexOf(arr3[i])+1)+"</br>")
+
+        };
+        document.write("</div><button id='back'>点击返回(注意，数据将会清空！)</button><div id=time></div>");
+        var back=document.getElementById("back");
+            back.onclick=f2;
+                function f2() {
+                window.location.reload();
+            }
+    }
+
+
+</script>
