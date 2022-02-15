@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T06:11:35.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uBMXxPHxrsLyIeqjOnGD" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T09:05:03.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9DGRoLGG2ur45YqPk7Mn" version="16.5.2" type="github">
   <diagram id="KqT8hlWPDfMBo95Y4FzN" name="Page-1">
     <mxGraphModel dx="1422" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             <mxPoint x="140" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzSdkyrplBqntAY0BgAB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-6" target="ZzSdkyrplBqntAY0BgAB-10">
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-6" target="ZzSdkyrplBqntAY0BgAB-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZzSdkyrplBqntAY0BgAB-6" value="图钉吸附到推荐点上，函数getincarFunction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -32,19 +32,10 @@
         <mxCell id="ZzSdkyrplBqntAY0BgAB-8" value="生成气泡，函数picklocation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZzSdkyrplBqntAY0BgAB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-10">
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-26" target="ZzSdkyrplBqntAY0BgAB-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="640" as="targetPoint" />
+            <mxPoint x="310" y="670" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzSdkyrplBqntAY0BgAB-10" value="吸附状态true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzSdkyrplBqntAY0BgAB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-14" target="ZzSdkyrplBqntAY0BgAB-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzSdkyrplBqntAY0BgAB-14" value="移动结束，吸附false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZzSdkyrplBqntAY0BgAB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-18" target="ZzSdkyrplBqntAY0BgAB-21">
           <mxGeometry relative="1" as="geometry" />
@@ -60,6 +51,18 @@
         </mxCell>
         <mxCell id="ZzSdkyrplBqntAY0BgAB-23" value="没有推荐点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-24" value="当前地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZzSdkyrplBqntAY0BgAB-25" target="ZzSdkyrplBqntAY0BgAB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-25" value="设置中心点，&lt;br&gt;函数setCenter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzSdkyrplBqntAY0BgAB-26" value="拖拽选址（图钉）移动，函数positionPicker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
