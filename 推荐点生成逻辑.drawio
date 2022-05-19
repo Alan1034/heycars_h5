@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:27:01.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="e9KzNrpTOX3DYszF5G0f" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:27:33.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lDX45wsGwD-0CZCiLn2b" version="17.4.0" type="github">
   <diagram id="mwaR5GpsswHJiH0Ugivy" name="Page-1">
     <mxGraphModel dx="2407" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -380,6 +380,9 @@
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-179" value="推荐上车点(以下简称List)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="-70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-182" value="上次生成的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="30" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
