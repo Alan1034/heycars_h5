@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:22:49.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uTwP8416E3DNQaxBWgzx" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:27:01.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="e9KzNrpTOX3DYszF5G0f" version="17.4.0" type="github">
   <diagram id="mwaR5GpsswHJiH0Ugivy" name="Page-1">
-    <mxGraphModel dx="1775" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2407" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,15 +22,15 @@
           <mxGeometry x="100" y="230" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-6" value="&lt;h1&gt;查找高德和悦行的POI,生成推荐上车点&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-30" width="461" height="30" as="geometry" />
+          <mxGeometry x="230" y="-120" width="461" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-8" value="distance=20米，以下简称距离D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="210" height="30" as="geometry" />
+          <mxGeometry x="280" y="-40" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="185" y="250" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mT-AoLK3dv-QOc7g7Hux-12" value="&lt;span&gt;推荐上车点(以下简称List)&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;html=1;" vertex="1" parent="1">
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-12" value="推荐上车点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="40" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-140" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;html=1;" vertex="1" parent="mT-AoLK3dv-QOc7g7Hux-12">
@@ -244,6 +244,15 @@
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-120" value="排序，选出离用户最近的点" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" edge="1" parent="1" source="mT-AoLK3dv-QOc7g7Hux-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="1950" />
+              <mxPoint x="-40" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-122" value="输出" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
@@ -362,6 +371,15 @@
         </mxCell>
         <mxCell id="mT-AoLK3dv-QOc7g7Hux-172" value="&lt;br&gt;循环查找&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;10, 30, 50, 100, 200, 300, 500米距离直到有返回值&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="135" y="1110" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-174" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2000" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" edge="1" parent="1" source="mT-AoLK3dv-QOc7g7Hux-179" target="mT-AoLK3dv-QOc7g7Hux-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mT-AoLK3dv-QOc7g7Hux-179" value="推荐上车点(以下简称List)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-70" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
