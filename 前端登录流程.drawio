@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T10:11:48.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YQQ0Urk86Yf0hkA6h8zk" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T10:15:40.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="kgr5CE-BbEPjhKe51boQ" version="18.0.8" type="github">
   <diagram id="lcfcQnrqHnscAdZdsbRG" name="Page-1">
     <mxGraphModel dx="1422" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,6 +211,9 @@
         </mxCell>
         <mxCell id="oT_qagoTQuDE8meJVY1o-63" value="看样子像某微信接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1190" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oT_qagoTQuDE8meJVY1o-64" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="285" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
