@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T08:59:13.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="i1RUP4hOnbfdmpqgJqMd" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T09:00:18.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ANoVH0mXMXLZOKt0zL7M" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BFyXoQLsjH9Mqdzui4bG">
     <mxGraphModel dx="2261" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,9 @@
         </mxCell>
         <mxCell id="0-AppGwkbrgxOckt9AXH-47" value="无延迟" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="767" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6LCseaI7ywuUw1R4s-1" value="地图加载必须要有一个默认定位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
