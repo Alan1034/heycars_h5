@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T07:41:57.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="21.3.2" etag="KYmbVU_GN7UkAVkG0zWv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T08:21:34.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JGtrCbjvanmkGN--HQ6j" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BFyXoQLsjH9Mqdzui4bG">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0-AppGwkbrgxOckt9AXH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-1" target="0-AppGwkbrgxOckt9AXH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-1" value="首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-2" target="0-AppGwkbrgxOckt9AXH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-2" target="0-AppGwkbrgxOckt9AXH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-2" value="地图加载完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-7" target="0-AppGwkbrgxOckt9AXH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-7" value="登录完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-10" target="0-AppGwkbrgxOckt9AXH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-10" value="APP或者高德定位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-11" target="0-AppGwkbrgxOckt9AXH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-11" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-14" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-15" target="0-AppGwkbrgxOckt9AXH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-15" value="默认定位或者前5秒内定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-23" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-AppGwkbrgxOckt9AXH-24" value="通过服务器拿用户最后一次定位（需要登录后）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
