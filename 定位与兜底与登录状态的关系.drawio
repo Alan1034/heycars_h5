@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T08:34:12.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qedZegiCBZadQU_XjIt1" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T08:34:42.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IzYIAPrraGOWVo5Jqsej" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BFyXoQLsjH9Mqdzui4bG">
     <mxGraphModel dx="2261" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="0-AppGwkbrgxOckt9AXH-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-AppGwkbrgxOckt9AXH-15" target="0-AppGwkbrgxOckt9AXH-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0-AppGwkbrgxOckt9AXH-15" value="默认定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0-AppGwkbrgxOckt9AXH-15" value="默认定位（大地原点）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-AppGwkbrgxOckt9AXH-23" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
